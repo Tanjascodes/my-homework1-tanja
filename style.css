@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(homework1.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-box {
+  width: 90%;
+  max-width: 450px;
+  background: #fff;
+  padding: 90px 45px 25px;
+  text-align: center;
+}
+
+.form-box h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: black;
+  position: relative;
+}
+
+.form-group input {
+  font-size: 10px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  width: 100%;
+  border-radius: 8px;
+  outline-color: #75717154;
+  padding: 12px 15px;
+  border: none;
+  background-color: #bfb9b954;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form-group input:focus {
+  outline: 1px solid #75717154;
+  box-shadow: 0 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  position: relative;
+}
+
+.staysigned {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  font-size: 0.7rem;
+  gap: 4px;
+}
+
+.staysigned-signin {
+  position: relative;
+  margin-top: 10px;
+}
+
+.checkbox {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  background-color: #bfb9b954;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tick-icon {
+  width: 8px;
+  height: 8px;
+  display: none;
+}
+
+.staysigned input:checked + .checkbox .tick-icon {
+  display: inline;
+}
+
+.staysigned input {
+  display: none;
+}
+
+.form-group button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #9d979754;
+  border-radius: 25px;
+  background-color: transparent;
+  margin-bottom: 40px;
+  height: 70px;
+  width: 70px;
+  transition: box-shadow 0.2s ease;
+}
+
+.form-group button:hover {
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form-group button img {
+  height: 30px;
+  width: 30px;
+}
+
+.form-group a {
+  color: #39393954;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  margin-bottom: 8px;
+}
+
+.form-group a:hover {
+  text-decoration: underline;
+}
+
+.heading {
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+.subheading {
+  margin-bottom: 70px;
+}
+
+.help-links {
+  display: flex;
+  gap: 40px;
+  color: rgb(164, 164, 164);
+  text-align: center;
+}
+
+.help-box {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 40px 20px;
+  width: 250px;
+  border-radius: 30px;
+}
+
+.help-icon {
+  height: 120px;
+  width: 120px;
+}
+
+.help-title {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.help-description {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
